@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Algebra Quiz</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+</head>
+<body>
+
+	<div id="background">
+		<div id="clipboard">
+			<div id="title">
+				<h1>Algebra Quiz</h1>
+			</div>
+
+			<div id="questions">
+				<p id="perCorrect">You finished the quiz!  You got <span id="perNumber"></span> of the questions correct.  TO try again refresh the page.</p>
+				<div id="gameover">
+					<p id="questNumber"> Question <span id="queNumber1">1</span> of <span id="queNumber2">5</span> </p>
+					<p id="inputQuestion"></p>
+						<ul>
+							<li>
+								<label>
+									<input type="radio" name="answer" value="0" required>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="answer" value="1">
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="answer" value="2">
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="answer" value="3">
+								</label>
+							</li>
+						</ul>
+					</div>
+			</div>
+			<div id="input">
+				<input type="submit" id="button" value="submit">
+			</div>
+
+			<div class="rightWrong" id="right"> 
+				<img src="img/checkmark.gif" alt="checkmark">
+			</div>
+			<div class="rightWrong" id="wrong"> 
+				<img src="img/x.jpg" alt="x">
+			</div>
+
+		</div>
+	</div>
+<script type = "text/javascript" src="js/app2.js"></script>	
+</body>
+</html>
